@@ -322,7 +322,6 @@ const app = express();
 // Middleware
 app.get('/', (req, res) => {
     res.send({ status: 'Server is running 🚀' });
-});
 
 // Session configuration
 const sessionSettings = {
